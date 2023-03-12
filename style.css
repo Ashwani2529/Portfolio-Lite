@@ -26,18 +26,10 @@ body {
     z-index: -1;
   }
   h3{
-    color: #cbb7b7;
-    text-decoration: line-through;
-  text-transform: uppercase;
-  text-shadow: #396994;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: bold;
-  letter-spacing: 3px;
-  text-align: justify;
-  text-transform: uppercase;
-  font-family: cursive;
-  overflow: hidden;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
   }
   .bo{
     background-image: url('employee-2.jpg');

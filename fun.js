@@ -1,9 +1,8 @@
-document.addEventListener('keydown', function(event) {
-  if (event.code === 'Space') {
-    var audio = document.getElementById('Audi');
-    audio.play();
-  }
-});
+window.onload = function() {
+  var audio = document.getElementById('Audi');
+  audio.play();
+};
+
 const l="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.querySelectorAll("h4").forEach(h4 => {
   h4.onmouseover = event => {

@@ -1,7 +1,7 @@
-window.onload = function() {
-  var audio = document.getElementById('Audi');
-  audio.play();
-};
+document.addEventListener('keydown', function() {
+      var audio = document.getElementById('Audi');
+      audio.play();
+});
 
 const l="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.querySelectorAll("h4").forEach(h4 => {
